@@ -45,11 +45,8 @@ const Marcador = ()=>{
       <button onClick={startGame} data-function="start">{gameStatus}</button>
       <h2>Whack a mole!</h2>
       <h3>Atrapa al 'bicho'</h3>
+    </div> 
     </div>
-    
-     
-    
-  </div>
   {timeLeft<= 0 && <GameOver/>} 
         
     </div>
